@@ -12,6 +12,7 @@ class Home extends Component {
       navigate: false,
       userValues: JSON.parse(localStorage.getItem("userInfo")),
       getIndex:'',
+      newText:'',
     };
   }
   
